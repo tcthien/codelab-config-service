@@ -10,7 +10,7 @@ spring:
     name: codelab-config
       
 server:
-  port: 8888
+  port: 20088
   
 security:
   user:
