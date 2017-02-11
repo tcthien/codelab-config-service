@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t codelab-config .
+docker build -t ${1} .
