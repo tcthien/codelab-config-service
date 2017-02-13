@@ -3,9 +3,9 @@ spring:
     mongodb:
       host: codelab-auth-mongodb
       username: user
-      password: ${MONGODB_PASSWORD}
-      database: piggymetrics
-      port: 27017
+      password: ${CODELAB_PASS}
+      database: codelab
+      port: 20184
 
 server:
   context-path: /uaa
