@@ -23,9 +23,15 @@ zuul:
         stripPrefix: false
         sensitiveHeaders:
         
-    account-service:
-        path: /articles/**
+    article-service:
+        path: /article/**
         serviceId: codelab-article-service
+        stripPrefix: false
+        sensitiveHeaders:
+        
+    account-service:
+        path: /account/**
+        serviceId: codelab-account-service
         stripPrefix: false
         sensitiveHeaders:
 

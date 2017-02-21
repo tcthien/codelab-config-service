@@ -1,12 +1,3 @@
-security:
-  oauth2:
-    client:
-      client-id: codelab-account-service
-      client-secret: ${CODELAB_PASS}
-      access-token-uri: http://codelab-auth-service:20084/uaa/oauth/token
-      grant-type: client_credentials
-      scope: server
-      
 spring:
   data:
     mongodb:
