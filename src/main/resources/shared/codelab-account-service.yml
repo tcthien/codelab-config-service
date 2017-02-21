@@ -10,3 +10,12 @@ spring:
 server:
   context-path: /account
   port: 20082
+
+security:
+  oauth2:
+    client:
+      client-id: codelab-account-service
+      client-secret: codelab
+      access-token-uri: http://codelab-auth-service:20084/uaa/oauth/token
+      grant-type: client_credentials
+      scope: server
