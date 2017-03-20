@@ -7,13 +7,13 @@ spring:
   profiles:
     active: native
   application:
-    name: codelab-config-service
+    userName: codelab-config-service
       
 server:
   port: 20088
   
 security:
   user:
-    name: ${CODELAB_USER}
+    userName: ${CODELAB_USER}
     password: ${CODELAB_PASS}
     
