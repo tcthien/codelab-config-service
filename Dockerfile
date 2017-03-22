@@ -4,7 +4,6 @@ MAINTAINER Thien Tran <thientran1986@gmail.com>
 ADD env /env.sh
 ADD ./target/codelab-config-service.jar /app/
 
-RUN chmod+x /env.sh
 CMD ["java", "-Xmx200m", "-jar", "/app/codelab-config-service.jar"]
 
 EXPOSE 20088
