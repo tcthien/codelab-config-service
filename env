@@ -1,4 +1,2 @@
-#!/bin/bash
-
-export CODELAB_USER=codelab
-export CODELAB_PASS=codelab
+CODELAB_USER=codelab
+CODELAB_PASS=codelab
