@@ -14,6 +14,6 @@ server:
   
 security:
   user:
-    userName: ${CODELAB_USER}
-    password: ${CODELAB_PASS}
+    userName: codelab
+    password: codelab
     
