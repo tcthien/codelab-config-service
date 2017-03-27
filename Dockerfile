@@ -5,7 +5,7 @@ ADD env /env.sh
 ADD ./target/codelab-config-service.jar /app/
 
 RUN chmod +x /env.sh; sync; /env.sh
-RUN echo '${CODELAB_USER}/${CODELAB_PASS}'
+RUN echo ${CODELAB_USER} && echo ${CODELAB_PASS}
 CMD ["java", "-Xmx200m", "-jar", "/app/codelab-config-service.jar"]
 
 EXPOSE 20088
