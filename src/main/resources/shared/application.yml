@@ -22,6 +22,6 @@ security:
     resource:
       user-info-uri: http://codelab-auth-service:20084/uaa/users/current
 
-spring:
-  rabbitmq:
-    host: rabbitmq
+#spring:
+#  rabbitmq:
+#    host: rabbitmq
