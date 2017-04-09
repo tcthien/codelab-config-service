@@ -8,7 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer
 public class CodelabConfigApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CodelabConfigApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CodelabConfigApplication.class, args);
+    }
 }
