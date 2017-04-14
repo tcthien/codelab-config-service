@@ -19,3 +19,9 @@ security:
       access-token-uri: http://codelab-auth-service:20084/uaa/oauth/token
       grant-type: client_credentials
       scope: server
+
+codelab:
+  config:
+    sshServer:
+    - 192.255.100.100,vagrant,vagrant
+    - 192.255.100.100,vagrant,vagrant
