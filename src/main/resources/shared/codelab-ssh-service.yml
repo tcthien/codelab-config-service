@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      host: codelab-ssh-mongodb
+      username: user
+      password: ${CODELAB_PASS}
+      database: codelab
+      port: 20181
+      
+server:
+  context-path: /ssh
+  port: 20081
+
+security:
+  oauth2:
+    client:
+      client-id: codelab-ssh-service
+      client-secret: codelab
+      access-token-uri: http://codelab-auth-service:20084/uaa/oauth/token
+      grant-type: client_credentials
+      scope: server
