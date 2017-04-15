@@ -23,6 +23,5 @@ security:
 codelab:
   config:
     sshServer:
-    # Format: <ip addressn>,<user name>,<password>,<numberr of available vnc session>
-    - 192.255.100.100,vagrant,vagrant,5
-    - 192.255.100.100,vagrant,vagrant,5
+    # Format: <ip address>:<port>,<user name>,<password>,<numberr of available vnc session>
+    - 127.0.0.1:2222,vagrant,vagrant,5
