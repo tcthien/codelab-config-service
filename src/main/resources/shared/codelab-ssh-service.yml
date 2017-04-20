@@ -22,6 +22,21 @@ security:
 
 codelab:
   config:
+    servers:
+    - codelab
+
+codelab:
+  config:
     sshServer:
-    # Format: <ip address>:<port>,<user name>,<password>,<numberr of available vnc session>
-    - 127.0.0.1:2222,vagrant,vagrant,5
+      codelab:
+        ip: 127.0.0.1
+        port: 2222
+        userName: vagrant
+        password: vagrant
+        vagrantRoot: /vagrant
+        vagrantSubFolder:
+        # <sub folder name>:<session id>
+        - /user1:1
+        - /user2:2
+        - /user3:3
+
